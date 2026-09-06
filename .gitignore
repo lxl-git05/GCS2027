@@ -1,0 +1,186 @@
+# ========================================
+# STM32 / Keil-MDK 生成的临时文件和编译产物
+# ========================================
+
+# 编译产物（不需要提交）
+*.axf
+*.hex
+*.elf
+*.out
+*.map
+*.lst
+*.sct
+*.scr
+*.htm
+*.build_log.htm
+*.uv4.log
+*.uv4.log.lock
+
+# 中间文件
+*.o
+*.obj
+*.d
+*.crf
+*.dmp
+*.lnp
+*.iex
+
+# Keil 生成的临时/调试环境文件
+# 备份文件
+*.bak
+# 依赖文件
+*.dep
+# 用户界面配置（如窗口布局等，因人而异）
+*.uvoptx
+# Keil GUI 配置文件（因人而异）
+*.uvguix.*
+
+# ==========================
+# IntelliJ IDEA / JetBrains
+# ==========================
+
+# IDEA 配置目录
+/.idea/
+# 模块文件
+*.iml
+# 工作区文件
+*.iws
+# 默认编译输出目录
+out/
+
+# =================
+# VS Code
+# =================
+# VS Code 配置目录
+.vscode/
+# VS Code 工作区文件
+*.code-workspace
+
+# 可选：只忽略个人配置，需要共享调试/构建配置时可启用以下规则
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/launch.json
+
+# =================
+# 通用系统杂项文件
+# =================
+# macOS Finder 文件
+.DS_Store
+# Windows 缩略图缓存
+Thumbs.db
+# 日志文件
+*.log
+# 临时文件
+*.tmp
+
+# =================
+# 输出目录（可选）
+# =================
+# 通用构建目录
+/build/
+# Keil/MDK Debug 输出
+/Debug/
+# Keil/MDK Release 输出
+/Release/
+
+# ========================================
+# 建议提交的文件（不要忽略）
+# ========================================
+#   - 源代码文件: *.c, *.h
+#   - 启动文件: startup_xx.s
+#   - 工程配置: *.uvprojx
+#   - RTE 配置: *.rteconfig
+#   - 链接文件: *.sct（如需团队共享）
+
+# Keil 编译日志文件（全局忽略）
+**/uv4.log
+**/uv4.log.lock
+**/Template.build_log.htm
+
+# ========================================
+# LaTeX（VS Code 编辑器）编译产物
+# ========================================
+
+**/main.log
+**/main.pdf
+**/main.synctex.gz
+**/main.aux
+
+# === Vivado 核心忽略规则（编译保留）===
+# 项目文件
+*.xpr
+*.xpr.user
+*.xml
+*.xml.user
+
+# 自动生成目录（可由工具重新生成）
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.runs/
+.Xil/
+
+# 日志和临时文件
+*.jou
+*.log
+*.str
+*.debug
+*.backup*
+*.tmp
+*.bak
+
+# IP 相关（这些通常是自动生成的，可以不提交）
+*.srcs/sources_1/ip/**/synth/
+*.srcs/sources_1/ip/**/simulation/
+*.srcs/sources_1/ip/**/sim_scripts/
+*.srcs/sources_1/ip/**/example_design/
+*.srcs/sources_1/ip/**/doc/
+*.srcs/sources_1/ip/**/.upgrade_log
+*.srcs/sources_1/ip/**/component.xml
+*.srcs/sources_1/ip/**/synth_*.log
+*.srcs/sources_1/ip/**/sim_*.log
+
+# Block Design 生成的内容
+*.bd
+*.bd.user
+*.srcs/sources_1/bd/**/hdl/
+*.srcs/sources_1/bd/**/ip/
+*.srcs/sources_1/bd/**/ui/
+
+# 输出文件（偶尔需要，可按需提交）
+*.xsa
+*.bit
+*.bin
+*.mcs
+*.prm
+*.dcp
+*.rpt
+*.txt
+*.csv
+
+# Vivado Lab Edition / Vitis 输出
+*.ltx
+*.mmi
+*.hbs
+*.xpe
+*.xpr.zip
+*.zip
+
+# 其他生成目录
+*.gen/
+*.tmp/
+*.data/
+*.webtalk/
+webtalk_*.log
+vivado*.backup.jou
+vivado*.backup.log
+
+# 忽略路径均基于仓库根目录
+/Hardware/42-Stepper/Stepper-ZiLiao
+/Projects/Robot2026/Guo/YJC_LCD
+
+# 个人忽略
+# Agent记录操作变化
+Claude_Change
+Claude_Change.md
